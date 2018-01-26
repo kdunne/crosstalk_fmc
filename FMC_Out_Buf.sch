@@ -61,12 +61,12 @@ $EndComp
 Text HLabel 3920 1810 2    60   Input ~ 0
 3P3V
 Text HLabel 3920 1710 2    60   Input ~ 0
-BUFFIN_1_P
-Text HLabel 2195 1710 0    60   Input ~ 0
 BUFFIN_1_N
-Text HLabel 3920 1910 2    60   Output ~ 0
-BUFFOUT_1_P
+Text HLabel 2195 1710 0    60   Input ~ 0
+BUFFIN_1_P
 Text HLabel 3920 2010 2    60   Output ~ 0
+BUFFOUT_1_P
+Text HLabel 3920 1910 2    60   Output ~ 0
 BUFFOUT_1_N
 Text HLabel 2195 1810 0    60   Output ~ 0
 GND
@@ -76,10 +76,10 @@ Text HLabel 2195 2010 0    60   Output ~ 0
 GND
 $Comp
 L F1N1101K8X F3
-U 1 1 5A2B2B01
+U 1 1 5A64FC67
 P 3035 2315
-AR Path="/5A2B0C6F/5A2B2B01" Ref="F3"  Part="1" 
-AR Path="/5A2D701A/5A2B2B01" Ref="F11"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC67" Ref="F3"  Part="1" 
+AR Path="/5A2D701A/5A64FC67" Ref="F11"  Part="1" 
 F 0 "F3" H 2735 2365 60  0000 C CNN
 F 1 "F1N1101K8X" H 2985 2465 60  0000 C CNN
 F 2 "FIN1101K8X:FIN1101K8X" H 3535 2315 60  0001 C CNN
@@ -90,12 +90,12 @@ $EndComp
 Text HLabel 3925 2515 2    60   Input ~ 0
 3P3V
 Text HLabel 3925 2415 2    60   Input ~ 0
-BUFFIN_2_P
-Text HLabel 2200 2415 0    60   Input ~ 0
 BUFFIN_2_N
-Text HLabel 3925 2615 2    60   Output ~ 0
-BUFFOUT_2_P
+Text HLabel 2200 2415 0    60   Input ~ 0
+BUFFIN_2_P
 Text HLabel 3925 2715 2    60   Output ~ 0
+BUFFOUT_2_P
+Text HLabel 3925 2615 2    60   Output ~ 0
 BUFFOUT_2_N
 Text HLabel 2200 2515 0    60   Output ~ 0
 GND
@@ -105,10 +105,10 @@ Text HLabel 2200 2715 0    60   Output ~ 0
 GND
 $Comp
 L F1N1101K8X F4
-U 1 1 5A2B2C37
+U 1 1 5A64FC68
 P 3035 3040
-AR Path="/5A2B0C6F/5A2B2C37" Ref="F4"  Part="1" 
-AR Path="/5A2D701A/5A2B2C37" Ref="F12"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC68" Ref="F4"  Part="1" 
+AR Path="/5A2D701A/5A64FC68" Ref="F12"  Part="1" 
 F 0 "F4" H 2735 3090 60  0000 C CNN
 F 1 "F1N1101K8X" H 2985 3190 60  0000 C CNN
 F 2 "FIN1101K8X:FIN1101K8X" H 3535 3040 60  0001 C CNN
@@ -119,12 +119,12 @@ $EndComp
 Text HLabel 3925 3240 2    60   Input ~ 0
 3P3V
 Text HLabel 3925 3140 2    60   Input ~ 0
-BUFFIN_3_P
-Text HLabel 2200 3140 0    60   Input ~ 0
 BUFFIN_3_N
-Text HLabel 3925 3340 2    60   Output ~ 0
-BUFFOUT_3_P
+Text HLabel 2200 3140 0    60   Input ~ 0
+BUFFIN_3_P
 Text HLabel 3925 3440 2    60   Output ~ 0
+BUFFOUT_3_P
+Text HLabel 3925 3340 2    60   Output ~ 0
 BUFFOUT_3_N
 Text HLabel 2200 3240 0    60   Output ~ 0
 GND
@@ -134,10 +134,10 @@ Text HLabel 2200 3440 0    60   Output ~ 0
 GND
 $Comp
 L F1N1101K8X F5
-U 1 1 5A2B2C4D
+U 1 1 5A64FC69
 P 3040 3745
-AR Path="/5A2B0C6F/5A2B2C4D" Ref="F5"  Part="1" 
-AR Path="/5A2D701A/5A2B2C4D" Ref="F13"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC69" Ref="F5"  Part="1" 
+AR Path="/5A2D701A/5A64FC69" Ref="F13"  Part="1" 
 F 0 "F5" H 2740 3795 60  0000 C CNN
 F 1 "F1N1101K8X" H 2990 3895 60  0000 C CNN
 F 2 "FIN1101K8X:FIN1101K8X" H 3540 3745 60  0001 C CNN
@@ -148,12 +148,12 @@ $EndComp
 Text HLabel 3930 3945 2    60   Input ~ 0
 3P3V
 Text HLabel 3930 3845 2    60   Input ~ 0
-BUFFIN_4_P
-Text HLabel 2205 3845 0    60   Input ~ 0
 BUFFIN_4_N
-Text HLabel 3930 4045 2    60   Output ~ 0
-BUFFOUT_4_P
+Text HLabel 2205 3845 0    60   Input ~ 0
+BUFFIN_4_P
 Text HLabel 3930 4145 2    60   Output ~ 0
+BUFFOUT_4_P
+Text HLabel 3930 4045 2    60   Output ~ 0
 BUFFOUT_4_N
 Text HLabel 2205 3945 0    60   Output ~ 0
 GND
@@ -163,10 +163,10 @@ Text HLabel 2205 4145 0    60   Output ~ 0
 GND
 $Comp
 L F1N1101K8X F6
-U 1 1 5A2B2D7B
+U 1 1 5A64FC6A
 P 6485 1595
-AR Path="/5A2B0C6F/5A2B2D7B" Ref="F6"  Part="1" 
-AR Path="/5A2D701A/5A2B2D7B" Ref="F14"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC6A" Ref="F6"  Part="1" 
+AR Path="/5A2D701A/5A64FC6A" Ref="F14"  Part="1" 
 F 0 "F6" H 6185 1645 60  0000 C CNN
 F 1 "F1N1101K8X" H 6435 1745 60  0000 C CNN
 F 2 "FIN1101K8X:FIN1101K8X" H 6985 1595 60  0001 C CNN
@@ -177,12 +177,12 @@ $EndComp
 Text HLabel 7375 1795 2    60   Input ~ 0
 3P3V
 Text HLabel 7375 1695 2    60   Input ~ 0
-BUFFIN_5_P
-Text HLabel 5650 1695 0    60   Input ~ 0
 BUFFIN_5_N
-Text HLabel 7375 1895 2    60   Output ~ 0
-BUFFOUT_5_P
+Text HLabel 5650 1695 0    60   Input ~ 0
+BUFFIN_5_P
 Text HLabel 7375 1995 2    60   Output ~ 0
+BUFFOUT_5_P
+Text HLabel 7375 1895 2    60   Output ~ 0
 BUFFOUT_5_N
 Text HLabel 5650 1795 0    60   Output ~ 0
 GND
@@ -206,12 +206,12 @@ $EndComp
 Text HLabel 7380 2500 2    60   Input ~ 0
 3P3V
 Text HLabel 7380 2400 2    60   Input ~ 0
-BUFFIN_6_P
-Text HLabel 5655 2400 0    60   Input ~ 0
 BUFFIN_6_N
-Text HLabel 7380 2600 2    60   Output ~ 0
-BUFFOUT_6_P
+Text HLabel 5655 2400 0    60   Input ~ 0
+BUFFIN_6_P
 Text HLabel 7380 2700 2    60   Output ~ 0
+BUFFOUT_6_P
+Text HLabel 7380 2600 2    60   Output ~ 0
 BUFFOUT_6_N
 Text HLabel 5655 2500 0    60   Output ~ 0
 GND
@@ -235,12 +235,12 @@ $EndComp
 Text HLabel 7380 3225 2    60   Input ~ 0
 3P3V
 Text HLabel 7380 3125 2    60   Input ~ 0
-BUFFIN_7_P
-Text HLabel 5655 3125 0    60   Input ~ 0
 BUFFIN_7_N
-Text HLabel 7380 3325 2    60   Output ~ 0
-BUFFOUT_7_P
+Text HLabel 5655 3125 0    60   Input ~ 0
+BUFFIN_7_P
 Text HLabel 7380 3425 2    60   Output ~ 0
+BUFFOUT_7_P
+Text HLabel 7380 3325 2    60   Output ~ 0
 BUFFOUT_7_N
 Text HLabel 5655 3225 0    60   Input ~ 0
 GND
@@ -264,12 +264,12 @@ $EndComp
 Text HLabel 7385 3930 2    60   Input ~ 0
 3P3V
 Text HLabel 7385 3830 2    60   Input ~ 0
-BUFFIN_8_P
-Text HLabel 5660 3830 0    60   Input ~ 0
 BUFFIN_8_N
-Text HLabel 7385 4030 2    60   Output ~ 0
-BUFFOUT_8_P
+Text HLabel 5660 3830 0    60   Input ~ 0
+BUFFIN_8_P
 Text HLabel 7385 4130 2    60   Output ~ 0
+BUFFOUT_8_P
+Text HLabel 7385 4030 2    60   Output ~ 0
 BUFFOUT_8_N
 Text HLabel 5660 3930 0    60   Input ~ 0
 GND
@@ -411,10 +411,10 @@ Text HLabel 1950 5350 0    60   Output ~ 0
 GND
 $Comp
 L C_Small C3
-U 1 1 5A2DCCE5
+U 1 1 5A64FC6E
 P 2200 5200
-AR Path="/5A2B0C6F/5A2DCCE5" Ref="C3"  Part="1" 
-AR Path="/5A2D701A/5A2DCCE5" Ref="C11"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC6E" Ref="C3"  Part="1" 
+AR Path="/5A2D701A/5A64FC6E" Ref="C11"  Part="1" 
 F 0 "C3" H 2210 5270 50  0000 L CNN
 F 1 "~" H 2210 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 2200 5200 50  0001 C CNN
@@ -424,10 +424,10 @@ F 3 "" H 2200 5200 50  0001 C CNN
 $EndComp
 $Comp
 L C_Small C4
-U 1 1 5A2DCD29
+U 1 1 5A64FC6F
 P 2400 5200
-AR Path="/5A2B0C6F/5A2DCD29" Ref="C4"  Part="1" 
-AR Path="/5A2D701A/5A2DCD29" Ref="C12"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC6F" Ref="C4"  Part="1" 
+AR Path="/5A2D701A/5A64FC6F" Ref="C12"  Part="1" 
 F 0 "C4" H 2410 5270 50  0000 L CNN
 F 1 "~" H 2410 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 2400 5200 50  0001 C CNN
@@ -437,10 +437,10 @@ F 3 "" H 2400 5200 50  0001 C CNN
 $EndComp
 $Comp
 L C_Small C5
-U 1 1 5A2DCD5B
+U 1 1 5A64FC70
 P 2600 5200
-AR Path="/5A2B0C6F/5A2DCD5B" Ref="C5"  Part="1" 
-AR Path="/5A2D701A/5A2DCD5B" Ref="C13"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC70" Ref="C5"  Part="1" 
+AR Path="/5A2D701A/5A64FC70" Ref="C13"  Part="1" 
 F 0 "C5" H 2610 5270 50  0000 L CNN
 F 1 "~" H 2610 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 2600 5200 50  0001 C CNN
@@ -450,10 +450,10 @@ F 3 "" H 2600 5200 50  0001 C CNN
 $EndComp
 $Comp
 L C_Small C6
-U 1 1 5A2DCD90
+U 1 1 5A64FC71
 P 2800 5200
-AR Path="/5A2B0C6F/5A2DCD90" Ref="C6"  Part="1" 
-AR Path="/5A2D701A/5A2DCD90" Ref="C14"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC71" Ref="C6"  Part="1" 
+AR Path="/5A2D701A/5A64FC71" Ref="C14"  Part="1" 
 F 0 "C6" H 2810 5270 50  0000 L CNN
 F 1 "~" H 2810 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 2800 5200 50  0001 C CNN
@@ -463,10 +463,10 @@ F 3 "" H 2800 5200 50  0001 C CNN
 $EndComp
 $Comp
 L C_Small C7
-U 1 1 5A2DCDC8
+U 1 1 5A64FC72
 P 3000 5200
-AR Path="/5A2B0C6F/5A2DCDC8" Ref="C7"  Part="1" 
-AR Path="/5A2D701A/5A2DCDC8" Ref="C15"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC72" Ref="C7"  Part="1" 
+AR Path="/5A2D701A/5A64FC72" Ref="C15"  Part="1" 
 F 0 "C7" H 3010 5270 50  0000 L CNN
 F 1 "~" H 3010 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 3000 5200 50  0001 C CNN
@@ -476,10 +476,10 @@ F 3 "" H 3000 5200 50  0001 C CNN
 $EndComp
 $Comp
 L C_Small C8
-U 1 1 5A2DCE03
+U 1 1 5A64FC73
 P 3200 5200
-AR Path="/5A2B0C6F/5A2DCE03" Ref="C8"  Part="1" 
-AR Path="/5A2D701A/5A2DCE03" Ref="C16"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC73" Ref="C8"  Part="1" 
+AR Path="/5A2D701A/5A64FC73" Ref="C16"  Part="1" 
 F 0 "C8" H 3210 5270 50  0000 L CNN
 F 1 "~" H 3210 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 3200 5200 50  0001 C CNN
@@ -489,10 +489,10 @@ F 3 "" H 3200 5200 50  0001 C CNN
 $EndComp
 $Comp
 L C_Small C9
-U 1 1 5A2DCE41
+U 1 1 5A64FC74
 P 3400 5200
-AR Path="/5A2B0C6F/5A2DCE41" Ref="C9"  Part="1" 
-AR Path="/5A2D701A/5A2DCE41" Ref="C17"  Part="1" 
+AR Path="/5A2B0C6F/5A64FC74" Ref="C9"  Part="1" 
+AR Path="/5A2D701A/5A64FC74" Ref="C17"  Part="1" 
 F 0 "C9" H 3410 5270 50  0000 L CNN
 F 1 "~" H 3410 5120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 3400 5200 50  0001 C CNN

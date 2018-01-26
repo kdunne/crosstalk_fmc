@@ -1,0 +1,566 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Universal
+LIBS:crosstalk_fmc
+LIBS:crosstalk_fmc-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L F1N1101K8X F2
+U 1 1 5A64FC66
+P 3030 1610
+AR Path="/5A2B0C6F/5A64FC66" Ref="F2"  Part="1" 
+AR Path="/5A2D701A/5A64FC66" Ref="F10"  Part="1" 
+F 0 "F10" H 2730 1660 60  0000 C CNN
+F 1 "F1N1101K8X" H 2980 1760 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 3530 1610 60  0001 C CNN
+F 3 "" H 3530 1610 60  0001 C CNN
+	1    3030 1610
+	1    0    0    -1  
+$EndComp
+Text HLabel 3920 1810 2    60   Input ~ 0
+3P3V
+Text HLabel 3920 1710 2    60   Input ~ 0
+BUFFIN_1_P
+Text HLabel 2195 1710 0    60   Input ~ 0
+BUFFIN_1_N
+Text HLabel 3920 2010 2    60   Output ~ 0
+BUFFOUT_1_P
+Text HLabel 3920 1910 2    60   Output ~ 0
+BUFFOUT_1_N
+$Comp
+L F1N1101K8X F3
+U 1 1 5A2B2B01
+P 3035 2415
+AR Path="/5A2B0C6F/5A2B2B01" Ref="F3"  Part="1" 
+AR Path="/5A2D701A/5A2B2B01" Ref="F11"  Part="1" 
+F 0 "F11" H 2735 2465 60  0000 C CNN
+F 1 "F1N1101K8X" H 2985 2565 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 3535 2415 60  0001 C CNN
+F 3 "" H 3535 2415 60  0001 C CNN
+	1    3035 2415
+	1    0    0    -1  
+$EndComp
+Text HLabel 3925 2615 2    60   Input ~ 0
+3P3V
+Text HLabel 3925 2515 2    60   Input ~ 0
+BUFFIN_2_P
+Text HLabel 2200 2515 0    60   Input ~ 0
+BUFFIN_2_N
+Text HLabel 3925 2815 2    60   Output ~ 0
+BUFFOUT_2_P
+Text HLabel 3925 2715 2    60   Output ~ 0
+BUFFOUT_2_N
+$Comp
+L F1N1101K8X F4
+U 1 1 5A2B2C37
+P 3035 3320
+AR Path="/5A2B0C6F/5A2B2C37" Ref="F4"  Part="1" 
+AR Path="/5A2D701A/5A2B2C37" Ref="F12"  Part="1" 
+F 0 "F12" H 2735 3370 60  0000 C CNN
+F 1 "F1N1101K8X" H 2985 3470 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 3535 3320 60  0001 C CNN
+F 3 "" H 3535 3320 60  0001 C CNN
+	1    3035 3320
+	1    0    0    -1  
+$EndComp
+Text HLabel 3925 3520 2    60   Input ~ 0
+3P3V
+Text HLabel 3925 3420 2    60   Input ~ 0
+BUFFIN_3_P
+Text HLabel 2200 3420 0    60   Input ~ 0
+BUFFIN_3_N
+Text HLabel 3925 3720 2    60   Output ~ 0
+BUFFOUT_3_P
+Text HLabel 3925 3620 2    60   Output ~ 0
+BUFFOUT_3_N
+$Comp
+L F1N1101K8X F5
+U 1 1 5A2B2C4D
+P 3040 4275
+AR Path="/5A2B0C6F/5A2B2C4D" Ref="F5"  Part="1" 
+AR Path="/5A2D701A/5A2B2C4D" Ref="F13"  Part="1" 
+F 0 "F13" H 2740 4325 60  0000 C CNN
+F 1 "F1N1101K8X" H 2990 4425 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 3540 4275 60  0001 C CNN
+F 3 "" H 3540 4275 60  0001 C CNN
+	1    3040 4275
+	1    0    0    -1  
+$EndComp
+Text HLabel 3930 4475 2    60   Input ~ 0
+3P3V
+Text HLabel 3930 4375 2    60   Input ~ 0
+BUFFIN_4_P
+Text HLabel 2205 4375 0    60   Input ~ 0
+BUFFIN_4_N
+Text HLabel 3930 4675 2    60   Output ~ 0
+BUFFOUT_4_P
+Text HLabel 3930 4575 2    60   Output ~ 0
+BUFFOUT_4_N
+$Comp
+L F1N1101K8X F6
+U 1 1 5A2B2D7B
+P 6485 1595
+AR Path="/5A2B0C6F/5A2B2D7B" Ref="F6"  Part="1" 
+AR Path="/5A2D701A/5A2B2D7B" Ref="F14"  Part="1" 
+F 0 "F14" H 6185 1645 60  0000 C CNN
+F 1 "F1N1101K8X" H 6435 1745 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 6985 1595 60  0001 C CNN
+F 3 "" H 6985 1595 60  0001 C CNN
+	1    6485 1595
+	1    0    0    -1  
+$EndComp
+Text HLabel 7375 1795 2    60   Input ~ 0
+3P3V
+Text HLabel 7375 1695 2    60   Input ~ 0
+BUFFIN_5_P
+Text HLabel 5650 1695 0    60   Input ~ 0
+BUFFIN_5_N
+Text HLabel 7375 1995 2    60   Output ~ 0
+BUFFOUT_5_P
+Text HLabel 7375 1895 2    60   Output ~ 0
+BUFFOUT_5_N
+Text HLabel 5650 1795 0    60   Output ~ 0
+GND
+Text HLabel 5650 1895 0    60   Input ~ 0
+EN
+Text HLabel 5650 1995 0    60   Output ~ 0
+GND
+$Comp
+L F1N1101K8X F7
+U 1 1 5A64FC6B
+P 6490 2400
+AR Path="/5A2B0C6F/5A64FC6B" Ref="F7"  Part="1" 
+AR Path="/5A2D701A/5A64FC6B" Ref="F15"  Part="1" 
+F 0 "F15" H 6190 2450 60  0000 C CNN
+F 1 "F1N1101K8X" H 6440 2550 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 6990 2400 60  0001 C CNN
+F 3 "" H 6990 2400 60  0001 C CNN
+	1    6490 2400
+	1    0    0    -1  
+$EndComp
+Text HLabel 7380 2600 2    60   Input ~ 0
+3P3V
+Text HLabel 7380 2500 2    60   Input ~ 0
+BUFFIN_6_P
+Text HLabel 5655 2500 0    60   Input ~ 0
+BUFFIN_6_N
+Text HLabel 7380 2800 2    60   Output ~ 0
+BUFFOUT_6_P
+Text HLabel 7380 2700 2    60   Output ~ 0
+BUFFOUT_6_N
+Text HLabel 5655 2600 0    60   Output ~ 0
+GND
+Text HLabel 5655 2700 0    60   Input ~ 0
+EN
+Text HLabel 5655 2800 0    60   Output ~ 0
+GND
+$Comp
+L F1N1101K8X F8
+U 1 1 5A64FC6C
+P 6490 3305
+AR Path="/5A2B0C6F/5A64FC6C" Ref="F8"  Part="1" 
+AR Path="/5A2D701A/5A64FC6C" Ref="F16"  Part="1" 
+F 0 "F16" H 6190 3355 60  0000 C CNN
+F 1 "F1N1101K8X" H 6440 3455 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 6990 3305 60  0001 C CNN
+F 3 "" H 6990 3305 60  0001 C CNN
+	1    6490 3305
+	1    0    0    -1  
+$EndComp
+Text HLabel 7380 3505 2    60   Input ~ 0
+3P3V
+Text HLabel 7380 3405 2    60   Input ~ 0
+BUFFIN_7_P
+Text HLabel 5655 3405 0    60   Input ~ 0
+BUFFIN_7_N
+Text HLabel 7380 3705 2    60   Output ~ 0
+BUFFOUT_7_P
+Text HLabel 7380 3605 2    60   Output ~ 0
+BUFFOUT_7_N
+Text HLabel 5655 3505 0    60   Input ~ 0
+GND
+Text HLabel 5655 3605 0    60   Input ~ 0
+EN
+Text HLabel 5655 3705 0    60   Input ~ 0
+GND
+$Comp
+L F1N1101K8X F9
+U 1 1 5A64FC6D
+P 6495 4275
+AR Path="/5A2B0C6F/5A64FC6D" Ref="F9"  Part="1" 
+AR Path="/5A2D701A/5A64FC6D" Ref="F17"  Part="1" 
+F 0 "F17" H 6195 4325 60  0000 C CNN
+F 1 "F1N1101K8X" H 6445 4425 60  0000 C CNN
+F 2 "FIN1101K8X:FIN1101K8X" H 6995 4275 60  0001 C CNN
+F 3 "" H 6995 4275 60  0001 C CNN
+	1    6495 4275
+	1    0    0    -1  
+$EndComp
+Text HLabel 7385 4475 2    60   Input ~ 0
+3P3V
+Text HLabel 7385 4375 2    60   Input ~ 0
+BUFFIN_8_P
+Text HLabel 5660 4375 0    60   Input ~ 0
+BUFFIN_8_N
+Text HLabel 7385 4675 2    60   Output ~ 0
+BUFFOUT_8_P
+Text HLabel 7385 4575 2    60   Output ~ 0
+BUFFOUT_8_N
+Text HLabel 5660 4475 0    60   Input ~ 0
+GND
+Text HLabel 5660 4575 0    60   Input ~ 0
+EN
+Text HLabel 5660 4675 0    60   Input ~ 0
+GND
+Wire Wire Line
+	2195 1710 2530 1710
+Wire Wire Line
+	3580 1910 3920 1910
+Wire Wire Line
+	3920 2010 3580 2010
+Wire Wire Line
+	3920 1710 3580 1710
+Wire Wire Line
+	2200 2515 2535 2515
+Wire Wire Line
+	3585 2715 3925 2715
+Wire Wire Line
+	3925 2815 3585 2815
+Wire Wire Line
+	3925 2615 3585 2615
+Wire Wire Line
+	3925 2515 3585 2515
+Wire Wire Line
+	2200 3420 2535 3420
+Wire Wire Line
+	3585 3620 3925 3620
+Wire Wire Line
+	3925 3720 3585 3720
+Wire Wire Line
+	3925 3520 3585 3520
+Wire Wire Line
+	3925 3420 3585 3420
+Wire Wire Line
+	2205 4375 2540 4375
+Wire Wire Line
+	3590 4575 3930 4575
+Wire Wire Line
+	3930 4675 3590 4675
+Wire Wire Line
+	3930 4475 3590 4475
+Wire Wire Line
+	3930 4375 3590 4375
+Wire Wire Line
+	5650 1695 5985 1695
+Wire Wire Line
+	7035 1895 7375 1895
+Wire Wire Line
+	7375 1995 7035 1995
+Wire Wire Line
+	5650 1795 5985 1795
+Wire Wire Line
+	5650 1895 5985 1895
+Wire Wire Line
+	5650 1995 5985 1995
+Wire Wire Line
+	7375 1795 7035 1795
+Wire Wire Line
+	7375 1695 7035 1695
+Wire Wire Line
+	5655 2500 5990 2500
+Wire Wire Line
+	7040 2700 7380 2700
+Wire Wire Line
+	7380 2800 7040 2800
+Wire Wire Line
+	5655 2600 5990 2600
+Wire Wire Line
+	5655 2700 5990 2700
+Wire Wire Line
+	5655 2800 5990 2800
+Wire Wire Line
+	7380 2600 7040 2600
+Wire Wire Line
+	7380 2500 7040 2500
+Wire Wire Line
+	5655 3405 5990 3405
+Wire Wire Line
+	7040 3605 7380 3605
+Wire Wire Line
+	7380 3705 7040 3705
+Wire Wire Line
+	5655 3505 5990 3505
+Wire Wire Line
+	5655 3605 5990 3605
+Wire Wire Line
+	5655 3705 5990 3705
+Wire Wire Line
+	7380 3505 7040 3505
+Wire Wire Line
+	7380 3405 7040 3405
+Wire Wire Line
+	5660 4375 5995 4375
+Wire Wire Line
+	7045 4575 7385 4575
+Wire Wire Line
+	7385 4675 7045 4675
+Wire Wire Line
+	5660 4475 5995 4475
+Wire Wire Line
+	5660 4575 5995 4575
+Wire Wire Line
+	5660 4675 5995 4675
+Wire Wire Line
+	7385 4475 7045 4475
+Wire Wire Line
+	7385 4375 7045 4375
+Wire Wire Line
+	3920 1810 3580 1810
+Text HLabel 1885 6705 0    60   Input ~ 0
+3P3V
+Text HLabel 1885 7005 0    60   Output ~ 0
+GND
+$Comp
+L C_Small C3
+U 1 1 5A2DCCE5
+P 2135 6855
+AR Path="/5A2B0C6F/5A2DCCE5" Ref="C3"  Part="1" 
+AR Path="/5A2D701A/5A2DCCE5" Ref="C11"  Part="1" 
+F 0 "C11" H 2145 6925 50  0000 L CNN
+F 1 "~" H 2145 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2135 6855 50  0001 C CNN
+F 3 "" H 2135 6855 50  0001 C CNN
+	1    2135 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 5A2DCD29
+P 2335 6855
+AR Path="/5A2B0C6F/5A2DCD29" Ref="C4"  Part="1" 
+AR Path="/5A2D701A/5A2DCD29" Ref="C12"  Part="1" 
+F 0 "C12" H 2345 6925 50  0000 L CNN
+F 1 "~" H 2345 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2335 6855 50  0001 C CNN
+F 3 "" H 2335 6855 50  0001 C CNN
+	1    2335 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 5A2DCD5B
+P 2535 6855
+AR Path="/5A2B0C6F/5A2DCD5B" Ref="C5"  Part="1" 
+AR Path="/5A2D701A/5A2DCD5B" Ref="C13"  Part="1" 
+F 0 "C13" H 2545 6925 50  0000 L CNN
+F 1 "~" H 2545 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2535 6855 50  0001 C CNN
+F 3 "" H 2535 6855 50  0001 C CNN
+	1    2535 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C6
+U 1 1 5A2DCD90
+P 2735 6855
+AR Path="/5A2B0C6F/5A2DCD90" Ref="C6"  Part="1" 
+AR Path="/5A2D701A/5A2DCD90" Ref="C14"  Part="1" 
+F 0 "C14" H 2745 6925 50  0000 L CNN
+F 1 "~" H 2745 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2735 6855 50  0001 C CNN
+F 3 "" H 2735 6855 50  0001 C CNN
+	1    2735 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C7
+U 1 1 5A2DCDC8
+P 2935 6855
+AR Path="/5A2B0C6F/5A2DCDC8" Ref="C7"  Part="1" 
+AR Path="/5A2D701A/5A2DCDC8" Ref="C15"  Part="1" 
+F 0 "C15" H 2945 6925 50  0000 L CNN
+F 1 "~" H 2945 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 2935 6855 50  0001 C CNN
+F 3 "" H 2935 6855 50  0001 C CNN
+	1    2935 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C8
+U 1 1 5A2DCE03
+P 3135 6855
+AR Path="/5A2B0C6F/5A2DCE03" Ref="C8"  Part="1" 
+AR Path="/5A2D701A/5A2DCE03" Ref="C16"  Part="1" 
+F 0 "C16" H 3145 6925 50  0000 L CNN
+F 1 "~" H 3145 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3135 6855 50  0001 C CNN
+F 3 "" H 3135 6855 50  0001 C CNN
+	1    3135 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C9
+U 1 1 5A2DCE41
+P 3335 6855
+AR Path="/5A2B0C6F/5A2DCE41" Ref="C9"  Part="1" 
+AR Path="/5A2D701A/5A2DCE41" Ref="C17"  Part="1" 
+F 0 "C17" H 3345 6925 50  0000 L CNN
+F 1 "~" H 3345 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3335 6855 50  0001 C CNN
+F 3 "" H 3335 6855 50  0001 C CNN
+	1    3335 6855
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C10
+U 1 1 5A64FC75
+P 3535 6855
+AR Path="/5A2B0C6F/5A64FC75" Ref="C10"  Part="1" 
+AR Path="/5A2D701A/5A64FC75" Ref="C18"  Part="1" 
+F 0 "C18" H 3545 6925 50  0000 L CNN
+F 1 "~" H 3545 6775 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3535 6855 50  0001 C CNN
+F 3 "" H 3535 6855 50  0001 C CNN
+	1    3535 6855
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1885 6705 3535 6705
+Wire Wire Line
+	2135 6705 2135 6755
+Wire Wire Line
+	3535 6705 3535 6755
+Connection ~ 2135 6705
+Wire Wire Line
+	3335 6755 3335 6705
+Connection ~ 3335 6705
+Wire Wire Line
+	3135 6755 3135 6705
+Connection ~ 3135 6705
+Wire Wire Line
+	2935 6755 2935 6705
+Connection ~ 2935 6705
+Wire Wire Line
+	2735 6755 2735 6705
+Connection ~ 2735 6705
+Wire Wire Line
+	2535 6755 2535 6705
+Connection ~ 2535 6705
+Wire Wire Line
+	2335 6755 2335 6705
+Connection ~ 2335 6705
+Wire Wire Line
+	1885 7005 3535 7005
+Wire Wire Line
+	3535 7005 3535 6955
+Wire Wire Line
+	2135 7005 2135 6955
+Connection ~ 2135 7005
+Wire Wire Line
+	2335 6955 2335 7005
+Connection ~ 2335 7005
+Wire Wire Line
+	2535 6955 2535 7005
+Connection ~ 2535 7005
+Wire Wire Line
+	2735 6955 2735 7005
+Connection ~ 2735 7005
+Wire Wire Line
+	2935 6955 2935 7005
+Connection ~ 2935 7005
+Wire Wire Line
+	3135 6955 3135 7005
+Connection ~ 3135 7005
+Wire Wire Line
+	3335 6955 3335 7005
+Connection ~ 3335 7005
+Text HLabel 2195 1810 0    60   Output ~ 0
+GND
+Text HLabel 2195 1910 0    60   Input ~ 0
+EN
+Text HLabel 2195 2010 0    60   Output ~ 0
+GND
+Wire Wire Line
+	2195 1810 2530 1810
+Wire Wire Line
+	2195 1910 2530 1910
+Wire Wire Line
+	2195 2010 2530 2010
+Text HLabel 2200 2615 0    60   Output ~ 0
+GND
+Text HLabel 2200 2715 0    60   Input ~ 0
+EN
+Text HLabel 2200 2815 0    60   Output ~ 0
+GND
+Wire Wire Line
+	2200 2615 2535 2615
+Wire Wire Line
+	2200 2715 2535 2715
+Wire Wire Line
+	2200 2815 2535 2815
+Text HLabel 2200 3520 0    60   Output ~ 0
+GND
+Text HLabel 2200 3620 0    60   Input ~ 0
+EN
+Text HLabel 2200 3720 0    60   Output ~ 0
+GND
+Wire Wire Line
+	2200 3520 2535 3520
+Wire Wire Line
+	2200 3620 2535 3620
+Wire Wire Line
+	2200 3720 2535 3720
+Text HLabel 2205 4475 0    60   Output ~ 0
+GND
+Text HLabel 2205 4575 0    60   Input ~ 0
+EN
+Text HLabel 2205 4675 0    60   Output ~ 0
+GND
+Wire Wire Line
+	2205 4475 2540 4475
+Wire Wire Line
+	2205 4575 2540 4575
+Wire Wire Line
+	2205 4675 2540 4675
+$EndSCHEMATC
