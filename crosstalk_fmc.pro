@@ -1,4 +1,4 @@
-update=Fri 26 Jan 2018 03:30:49 PM PST
+update=Fri 09 Feb 2018 04:50:31 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,19 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../component_libraries/KiCad/Universal.pretty
+LibDir=../component_libraries/KiCad/Universal.pretty;logo.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,15 +68,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/kdunne/kicad/component_libraries/KiCad/Universal
 LibName31=crosstalk_fmc
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [general]
 version=1

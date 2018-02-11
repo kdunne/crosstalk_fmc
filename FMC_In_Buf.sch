@@ -65,9 +65,9 @@ BUFFIN_1_P
 Text HLabel 2195 1710 0    60   Input ~ 0
 BUFFIN_1_N
 Text HLabel 3920 2010 2    60   Output ~ 0
-BUFFOUT_1_P
-Text HLabel 3920 1910 2    60   Output ~ 0
 BUFFOUT_1_N
+Text HLabel 3920 1910 2    60   Output ~ 0
+BUFFOUT_1_P
 $Comp
 L F1N1101K8X F3
 U 1 1 5A2B2B01
@@ -88,9 +88,9 @@ BUFFIN_2_P
 Text HLabel 2200 2515 0    60   Input ~ 0
 BUFFIN_2_N
 Text HLabel 3925 2815 2    60   Output ~ 0
-BUFFOUT_2_P
-Text HLabel 3925 2715 2    60   Output ~ 0
 BUFFOUT_2_N
+Text HLabel 3925 2715 2    60   Output ~ 0
+BUFFOUT_2_P
 $Comp
 L F1N1101K8X F4
 U 1 1 5A2B2C37
@@ -111,9 +111,9 @@ BUFFIN_3_P
 Text HLabel 2200 3420 0    60   Input ~ 0
 BUFFIN_3_N
 Text HLabel 3925 3720 2    60   Output ~ 0
-BUFFOUT_3_P
-Text HLabel 3925 3620 2    60   Output ~ 0
 BUFFOUT_3_N
+Text HLabel 3925 3620 2    60   Output ~ 0
+BUFFOUT_3_P
 $Comp
 L F1N1101K8X F5
 U 1 1 5A2B2C4D
@@ -134,9 +134,9 @@ BUFFIN_4_P
 Text HLabel 2205 4375 0    60   Input ~ 0
 BUFFIN_4_N
 Text HLabel 3930 4675 2    60   Output ~ 0
-BUFFOUT_4_P
-Text HLabel 3930 4575 2    60   Output ~ 0
 BUFFOUT_4_N
+Text HLabel 3930 4575 2    60   Output ~ 0
+BUFFOUT_4_P
 $Comp
 L F1N1101K8X F6
 U 1 1 5A2B2D7B
@@ -157,9 +157,9 @@ BUFFIN_5_P
 Text HLabel 5650 1695 0    60   Input ~ 0
 BUFFIN_5_N
 Text HLabel 7375 1995 2    60   Output ~ 0
-BUFFOUT_5_P
-Text HLabel 7375 1895 2    60   Output ~ 0
 BUFFOUT_5_N
+Text HLabel 7375 1895 2    60   Output ~ 0
+BUFFOUT_5_P
 Text HLabel 5650 1795 0    60   Output ~ 0
 GND
 Text HLabel 5650 1895 0    60   Input ~ 0
@@ -186,9 +186,9 @@ BUFFIN_6_P
 Text HLabel 5655 2500 0    60   Input ~ 0
 BUFFIN_6_N
 Text HLabel 7380 2800 2    60   Output ~ 0
-BUFFOUT_6_P
-Text HLabel 7380 2700 2    60   Output ~ 0
 BUFFOUT_6_N
+Text HLabel 7380 2700 2    60   Output ~ 0
+BUFFOUT_6_P
 Text HLabel 5655 2600 0    60   Output ~ 0
 GND
 Text HLabel 5655 2700 0    60   Input ~ 0
@@ -215,9 +215,9 @@ BUFFIN_7_P
 Text HLabel 5655 3405 0    60   Input ~ 0
 BUFFIN_7_N
 Text HLabel 7380 3705 2    60   Output ~ 0
-BUFFOUT_7_P
-Text HLabel 7380 3605 2    60   Output ~ 0
 BUFFOUT_7_N
+Text HLabel 7380 3605 2    60   Output ~ 0
+BUFFOUT_7_P
 Text HLabel 5655 3505 0    60   Input ~ 0
 GND
 Text HLabel 5655 3605 0    60   Input ~ 0
@@ -244,9 +244,9 @@ BUFFIN_8_P
 Text HLabel 5660 4375 0    60   Input ~ 0
 BUFFIN_8_N
 Text HLabel 7385 4675 2    60   Output ~ 0
-BUFFOUT_8_P
-Text HLabel 7385 4575 2    60   Output ~ 0
 BUFFOUT_8_N
+Text HLabel 7385 4575 2    60   Output ~ 0
+BUFFOUT_8_P
 Text HLabel 5660 4475 0    60   Input ~ 0
 GND
 Text HLabel 5660 4575 0    60   Input ~ 0

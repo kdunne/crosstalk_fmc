@@ -49,49 +49,49 @@ Text Label 1150 3050 0    60   ~ 0
 TERM_IN_0_N
 Text Label 1150 2950 0    60   ~ 0
 TERM_IN_0_P
-Text Label 1150 2750 0    60   ~ 0
+Text Label 1150 2850 0    60   ~ 0
 TERM_IN_1_N
-Text Label 1150 2650 0    60   ~ 0
+Text Label 1150 2750 0    60   ~ 0
 TERM_IN_1_P
-Text Label 1150 2450 0    60   ~ 0
+Text Label 1150 2650 0    60   ~ 0
 TERM_IN_2_N
-Text Label 1150 2350 0    60   ~ 0
+Text Label 1150 2550 0    60   ~ 0
 TERM_IN_2_P
-Text Label 1150 2150 0    60   ~ 0
+Text Label 1150 2450 0    60   ~ 0
 TERM_IN_3_N
-Text Label 1150 2050 0    60   ~ 0
+Text Label 1150 2350 0    60   ~ 0
 TERM_IN_3_P
-Text Label 1150 1850 0    60   ~ 0
+Text Label 1150 2250 0    60   ~ 0
 TERM_IN_4_N
-Text Label 1150 1750 0    60   ~ 0
+Text Label 1150 2150 0    60   ~ 0
 TERM_IN_4_P
-Text Label 1150 1550 0    60   ~ 0
+Text Label 1150 2050 0    60   ~ 0
 TERM_IN_5_N
-Text Label 1150 1450 0    60   ~ 0
+Text Label 1150 1950 0    60   ~ 0
 TERM_IN_5_P
-Text Label 1150 1250 0    60   ~ 0
+Text Label 1150 1850 0    60   ~ 0
 TERM_IN_6_N
-Text Label 1150 1150 0    60   ~ 0
+Text Label 1150 1750 0    60   ~ 0
 TERM_IN_6_P
-Text Label 1150 950  0    60   ~ 0
+Text Label 1150 1650 0    60   ~ 0
 TERM_IN_7_N
-Text Label 1150 850  0    60   ~ 0
+Text Label 1150 1550 0    60   ~ 0
 TERM_IN_7_P
 Text Label 3465 2955 2    60   ~ 0
 TERM_OUT_0_P
 Text Label 3465 3055 2    60   ~ 0
 TERM_OUT_0_N
-Text Label 3465 2655 2    60   ~ 0
-TERM_OUT_1_P
 Text Label 3465 2755 2    60   ~ 0
+TERM_OUT_1_P
+Text Label 3465 2855 2    60   ~ 0
 TERM_OUT_1_N
-Text Label 3465 2355 2    60   ~ 0
+Text Label 3465 2555 2    60   ~ 0
 TERM_OUT_2_P
-Text Label 3465 2455 2    60   ~ 0
+Text Label 3465 2655 2    60   ~ 0
 TERM_OUT_2_N
-Text Label 3465 2055 2    60   ~ 0
+Text Label 3465 2355 2    60   ~ 0
 TERM_OUT_3_P
-Text Label 3465 2155 2    60   ~ 0
+Text Label 3465 2455 2    60   ~ 0
 TERM_OUT_3_N
 Text Label 7730 3150 0    60   ~ 0
 FMC_OUT_0_N
@@ -220,31 +220,31 @@ NoConn ~ 9880 4550
 NoConn ~ 9880 4650
 NoConn ~ 9880 3050
 NoConn ~ 9880 3150
-Text Label 6660 1150 0    60   ~ 0
+Text Label 10390 950  0    60   ~ 0
 3P3V
 $Comp
 L C_Small C1
 U 1 1 5A0970D9
-P 7010 1350
-F 0 "C1" H 7020 1420 50  0000 L CNN
-F 1 "0.1uF" H 7020 1270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7010 1350 50  0001 C CNN
-F 3 "" H 7010 1350 50  0001 C CNN
-	1    7010 1350
+P 10740 1150
+F 0 "C1" H 10750 1220 50  0000 L CNN
+F 1 "0.1uF" H 10750 1070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10740 1150 50  0001 C CNN
+F 3 "" H 10740 1150 50  0001 C CNN
+	1    10740 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C2
 U 1 1 5A097789
-P 7210 1350
-F 0 "C2" H 7220 1420 50  0000 L CNN
-F 1 "0.1uF" H 7220 1270 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7210 1350 50  0001 C CNN
-F 3 "" H 7210 1350 50  0001 C CNN
-	1    7210 1350
+P 10940 1150
+F 0 "C2" H 10950 1220 50  0000 L CNN
+F 1 "0.1uF" H 10950 1070 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10940 1150 50  0001 C CNN
+F 3 "" H 10940 1150 50  0001 C CNN
+	1    10940 1150
 	1    0    0    -1  
 $EndComp
-Text Label 6660 1550 0    60   ~ 0
+Text Label 10390 1350 0    60   ~ 0
 GND
 Text Label -13700 -10350 3    60   ~ 0
 VDD2
@@ -255,7 +255,6 @@ GND
 Text Label -13600 -8200 1    60   ~ 0
 VDD2
 NoConn ~ -13200 -10000
-NoConn ~ 12930 2550
 NoConn ~ 12930 2650
 NoConn ~ 12930 2750
 NoConn ~ 12930 2850
@@ -292,7 +291,6 @@ NoConn ~ 12930 5850
 Text Label 7980 6050 0    60   ~ 0
 GND
 NoConn ~ 9880 6350
-NoConn ~ 9880 6450
 NoConn ~ 8380 6450
 NoConn ~ 8380 5050
 NoConn ~ 8380 4950
@@ -333,21 +331,21 @@ F 3 "" H 1800 3050 60  0001 C CNN
 	1    1800 3050
 	1    0    0    1   
 $EndComp
-Text Label 3465 1755 2    60   ~ 0
+Text Label 3465 2155 2    60   ~ 0
 TERM_OUT_4_P
-Text Label 3465 1855 2    60   ~ 0
+Text Label 3465 2255 2    60   ~ 0
 TERM_OUT_4_N
-Text Label 3465 1455 2    60   ~ 0
+Text Label 3465 1955 2    60   ~ 0
 TERM_OUT_5_P
-Text Label 3465 1555 2    60   ~ 0
+Text Label 3465 2055 2    60   ~ 0
 TERM_OUT_5_N
-Text Label 3465 1155 2    60   ~ 0
+Text Label 3465 1755 2    60   ~ 0
 TERM_OUT_6_P
-Text Label 3465 1255 2    60   ~ 0
+Text Label 3465 1855 2    60   ~ 0
 TERM_OUT_6_N
-Text Label 3465 855  2    60   ~ 0
+Text Label 3465 1555 2    60   ~ 0
 TERM_OUT_7_P
-Text Label 3465 955  2    60   ~ 0
+Text Label 3465 1655 2    60   ~ 0
 TERM_OUT_7_N
 Text Notes 1995 630  0    60   ~ 0
 Cable terminals
@@ -992,38 +990,6 @@ F 3 "" H 8445 1165 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 11430 2550
-Text Label 1150 2550 0    60   ~ 0
-GND
-Text Label 1150 2850 0    60   ~ 0
-GND
-Text Label 1150 2250 0    60   ~ 0
-GND
-Text Label 1150 1950 0    60   ~ 0
-GND
-Text Label 1150 1650 0    60   ~ 0
-GND
-Text Label 1150 1350 0    60   ~ 0
-GND
-Text Label 1150 1050 0    60   ~ 0
-GND
-Text Label 1155 750  0    60   ~ 0
-GND
-Text Label 3465 755  2    60   ~ 0
-GND
-Text Label 3465 1055 2    60   ~ 0
-GND
-Text Label 3465 1355 2    60   ~ 0
-GND
-Text Label 3465 1655 2    60   ~ 0
-GND
-Text Label 3465 1955 2    60   ~ 0
-GND
-Text Label 3465 2255 2    60   ~ 0
-GND
-Text Label 3465 2555 2    60   ~ 0
-GND
-Text Label 3465 2855 2    60   ~ 0
-GND
 Text Label 9195 1415 2    60   ~ 0
 FMC_ENABLE
 Text Label 9195 915  2    60   ~ 0
@@ -1047,49 +1013,35 @@ Wire Wire Line
 Wire Wire Line
 	7730 3250 8380 3250
 Wire Wire Line
-	2865 2155 3465 2155
-Wire Wire Line
-	2865 2055 3465 2055
-Wire Wire Line
 	2865 2455 3465 2455
 Wire Wire Line
 	2865 2355 3465 2355
 Wire Wire Line
-	2865 2755 3465 2755
-Wire Wire Line
 	2865 2655 3465 2655
+Wire Wire Line
+	2865 2555 3465 2555
+Wire Wire Line
+	2865 2855 3465 2855
+Wire Wire Line
+	2865 2755 3465 2755
 Wire Wire Line
 	2865 2955 3465 2955
 Wire Wire Line
 	2865 3055 3465 3055
 Wire Wire Line
-	1150 850  1800 850 
-Wire Wire Line
-	1150 1050 1800 1050
-Wire Wire Line
-	1150 1150 1800 1150
-Wire Wire Line
-	1150 1350 1800 1350
-Wire Wire Line
-	1150 1450 1800 1450
-Wire Wire Line
-	1150 1650 1800 1650
-Wire Wire Line
-	1150 1950 1800 1950
+	1150 1550 1800 1550
 Wire Wire Line
 	1150 1750 1800 1750
 Wire Wire Line
-	1150 2050 1800 2050
+	1150 1950 1800 1950
 Wire Wire Line
-	1150 2250 1800 2250
+	1150 2150 1800 2150
 Wire Wire Line
 	1150 2350 1800 2350
 Wire Wire Line
 	1150 2550 1800 2550
 Wire Wire Line
-	1150 2650 1800 2650
-Wire Wire Line
-	1150 2850 1800 2850
+	1150 2750 1800 2750
 Wire Wire Line
 	1150 3050 1800 3050
 Wire Wire Line
@@ -1220,27 +1172,27 @@ Wire Wire Line
 Wire Wire Line
 	7980 4550 8380 4550
 Wire Wire Line
-	7010 1250 7010 1150
-Connection ~ 7010 1150
+	10740 1050 10740 950 
+Connection ~ 10740 950 
 Wire Wire Line
-	7010 1550 7010 1450
-Connection ~ 7010 1550
+	10740 1350 10740 1250
+Connection ~ 10740 1350
 Wire Wire Line
-	2865 955  3465 955 
-Wire Wire Line
-	2865 855  3465 855 
-Wire Wire Line
-	2865 1255 3465 1255
-Wire Wire Line
-	2865 1155 3465 1155
+	2865 1655 3465 1655
 Wire Wire Line
 	2865 1555 3465 1555
 Wire Wire Line
-	2865 1455 3465 1455
+	2865 1855 3465 1855
 Wire Wire Line
 	2865 1755 3465 1755
 Wire Wire Line
-	2865 1855 3465 1855
+	2865 2055 3465 2055
+Wire Wire Line
+	2865 1955 3465 1955
+Wire Wire Line
+	2865 2155 3465 2155
+Wire Wire Line
+	2865 2255 3465 2255
 Wire Wire Line
 	565  4190 1480 4190
 Wire Wire Line
@@ -1366,15 +1318,15 @@ Wire Wire Line
 Wire Wire Line
 	6375 6330 7290 6330
 Wire Wire Line
-	7210 1150 7210 1250
-Connection ~ 7210 1150
+	10940 950  10940 1050
+Connection ~ 10940 950 
 Wire Wire Line
-	7210 1550 7210 1450
-Connection ~ 7210 1550
+	10940 1350 10940 1250
+Connection ~ 10940 1350
 Wire Wire Line
-	6660 1550 7210 1550
+	10390 1350 10940 1350
 Wire Wire Line
-	6660 1150 7210 1150
+	10390 950  10940 950 
 Wire Wire Line
 	920  3590 1480 3590
 Wire Wire Line
@@ -1458,37 +1410,19 @@ Wire Wire Line
 Wire Wire Line
 	10840 5550 11430 5550
 Wire Wire Line
-	1150 950  1800 950 
-Wire Wire Line
-	1150 1250 1800 1250
-Wire Wire Line
-	1150 1550 1800 1550
+	1150 1650 1800 1650
 Wire Wire Line
 	1150 1850 1800 1850
 Wire Wire Line
-	1150 2150 1800 2150
+	1150 2050 1800 2050
+Wire Wire Line
+	1150 2250 1800 2250
 Wire Wire Line
 	1150 2450 1800 2450
 Wire Wire Line
-	1800 2750 1150 2750
+	1150 2650 1800 2650
 Wire Wire Line
-	1155 750  1800 750 
-Wire Wire Line
-	3465 755  2865 755 
-Wire Wire Line
-	3465 1055 2865 1055
-Wire Wire Line
-	3465 1355 2865 1355
-Wire Wire Line
-	3465 1655 2865 1655
-Wire Wire Line
-	3465 1955 2865 1955
-Wire Wire Line
-	3465 2255 2865 2255
-Wire Wire Line
-	3465 2555 2865 2555
-Wire Wire Line
-	3465 2855 2865 2855
+	1800 2850 1150 2850
 Wire Wire Line
 	8445 1415 9195 1415
 Wire Wire Line
@@ -1515,4 +1449,189 @@ Wire Wire Line
 	7800 1550 8120 1550
 Wire Wire Line
 	8120 1550 8120 1410
+$Comp
+L data_header U4
+U 1 1 5A6BCB57
+P 4950 1105
+F 0 "U4" H 4960 1195 60  0000 C CNN
+F 1 "data_header" H 4930 905 60  0000 C CNN
+F 2 "terminal:data_header" H 4950 1105 60  0001 C CNN
+F 3 "" H 4950 1105 60  0001 C CNN
+	1    4950 1105
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U2
+U 1 1 5A6BCDEC
+P 4935 1490
+F 0 "U2" H 4945 1580 60  0000 C CNN
+F 1 "data_header" H 4915 1290 60  0000 C CNN
+F 2 "terminal:data_header" H 4935 1490 60  0001 C CNN
+F 3 "" H 4935 1490 60  0001 C CNN
+	1    4935 1490
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U8
+U 1 1 5A6BD03F
+P 6145 1105
+F 0 "U8" H 6155 1195 60  0000 C CNN
+F 1 "data_header" H 6125 905 60  0000 C CNN
+F 2 "terminal:data_header" H 6145 1105 60  0001 C CNN
+F 3 "" H 6145 1105 60  0001 C CNN
+	1    6145 1105
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U6
+U 1 1 5A6BD28F
+P 6130 1490
+F 0 "U6" H 6140 1580 60  0000 C CNN
+F 1 "data_header" H 6110 1290 60  0000 C CNN
+F 2 "terminal:data_header" H 6130 1490 60  0001 C CNN
+F 3 "" H 6130 1490 60  0001 C CNN
+	1    6130 1490
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U3
+U 1 1 5A6BE26E
+P 4935 1890
+F 0 "U3" H 4945 1980 60  0000 C CNN
+F 1 "data_header" H 4915 1690 60  0000 C CNN
+F 2 "terminal:data_header" H 4935 1890 60  0001 C CNN
+F 3 "" H 4935 1890 60  0001 C CNN
+	1    4935 1890
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U1
+U 1 1 5A6BE274
+P 4920 2245
+F 0 "U1" H 4930 2335 60  0000 C CNN
+F 1 "data_header" H 4900 2045 60  0000 C CNN
+F 2 "terminal:data_header" H 4920 2245 60  0001 C CNN
+F 3 "" H 4920 2245 60  0001 C CNN
+	1    4920 2245
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U7
+U 1 1 5A6BE27A
+P 6130 1890
+F 0 "U7" H 6140 1980 60  0000 C CNN
+F 1 "data_header" H 6110 1690 60  0000 C CNN
+F 2 "terminal:data_header" H 6130 1890 60  0001 C CNN
+F 3 "" H 6130 1890 60  0001 C CNN
+	1    6130 1890
+	1    0    0    -1  
+$EndComp
+$Comp
+L data_header U5
+U 1 1 5A6BE280
+P 6115 2245
+F 0 "U5" H 6125 2335 60  0000 C CNN
+F 1 "data_header" H 6095 2045 60  0000 C CNN
+F 2 "terminal:data_header" H 6115 2245 60  0001 C CNN
+F 3 "" H 6115 2245 60  0001 C CNN
+	1    6115 2245
+	1    0    0    -1  
+$EndComp
+Text Label 4225 1105 0    60   ~ 0
+FMC_OUT_5_N
+Text Label 4220 1195 0    60   ~ 0
+FMC_OUT_5_P
+Wire Wire Line
+	4220 1195 4950 1195
+Wire Wire Line
+	4225 1105 4950 1105
+Text Label 4210 1490 0    60   ~ 0
+TERM_IN_5_N
+Text Label 4205 1580 0    60   ~ 0
+TERM_IN_5_P
+Wire Wire Line
+	4205 1580 4935 1580
+Wire Wire Line
+	4210 1490 4935 1490
+Text Label 4210 1890 0    60   ~ 0
+TERM_OUT_5_N
+Text Label 4205 1980 0    60   ~ 0
+TERM_OUT_5_P
+Wire Wire Line
+	4205 1980 4935 1980
+Wire Wire Line
+	4210 1890 4935 1890
+Text Label 4195 2245 0    60   ~ 0
+FMC_IN_5_N
+Text Label 4190 2335 0    60   ~ 0
+FMC_IN_5_P
+Wire Wire Line
+	4190 2335 4920 2335
+Wire Wire Line
+	4195 2245 4920 2245
+Text Label 5420 1105 0    60   ~ 0
+FMC_OUT_6_N
+Text Label 5415 1195 0    60   ~ 0
+FMC_OUT_6_P
+Wire Wire Line
+	5415 1195 6145 1195
+Wire Wire Line
+	5420 1105 6145 1105
+Text Label 5405 1490 0    60   ~ 0
+TERM_IN_6_N
+Text Label 5400 1580 0    60   ~ 0
+TERM_IN_6_P
+Wire Wire Line
+	5400 1580 6130 1580
+Wire Wire Line
+	5405 1490 6130 1490
+Text Label 5405 1890 0    60   ~ 0
+TERM_OUT_6_N
+Text Label 5400 1980 0    60   ~ 0
+TERM_OUT_6_P
+Wire Wire Line
+	5400 1980 6130 1980
+Wire Wire Line
+	5405 1890 6130 1890
+Text Label 5390 2245 0    60   ~ 0
+FMC_IN_6_N
+Text Label 5385 2335 0    60   ~ 0
+FMC_IN_6_P
+Wire Wire Line
+	5385 2335 6115 2335
+Wire Wire Line
+	5390 2245 6115 2245
+Text Notes 4235 895  0    60   ~ 0
+Header Pins
+Text Notes 7775 730  0    60   ~ 0
+Enable Switch
+Text Notes 10395 685  0    60   ~ 0
+Bypass Capacitance
+Text Label 13330 2550 2    60   ~ 0
+GND
+Wire Wire Line
+	13330 2550 12930 2550
+Text Label 10280 6450 2    60   ~ 0
+GND
+Wire Wire Line
+	10280 6450 9880 6450
+$Comp
+L data_header U9
+U 1 1 5A7D3802
+P 12445 1070
+F 0 "U9" H 12455 1160 60  0000 C CNN
+F 1 "data_header" H 12425 870 60  0000 C CNN
+F 2 "terminal:data_header" H 12445 1070 60  0001 C CNN
+F 3 "" H 12445 1070 60  0001 C CNN
+	1    12445 1070
+	1    0    0    -1  
+$EndComp
+Text Label 12230 1070 0    60   ~ 0
+3P3V
+Text Label 12225 1160 0    60   ~ 0
+GND
+Wire Wire Line
+	12445 1160 12225 1160
+Wire Wire Line
+	12230 1070 12445 1070
 $EndSCHEMATC
